@@ -5,33 +5,34 @@
 #define D_POW(A,B) pow((A), (B))
 #define D_EVEN(A) ((A) % 2 == 0) ? 1 : 0
 #define D_ODD(A) ((A) % 2 == 1) ? 1 : 0
+#define DOUBLE
 
 //task1
 #ifdef INTEGER
-#define fill fill_array_int
-#define show show_array_int
-#define find_min find_min_int
-#define find_max find_max_int
-#define sort_array sort_array_int
-#define change_array change_array_int
+#define FILL fill_array_int
+#define SHOW show_array_int
+#define FIND_MIN find_min_int
+#define FIND_MAX find_max_int
+#define SORT_ARRAY sort_array_int
+#define CHANGE_ARRAY change_array_int
 #endif
 
 #ifdef DOUBLE
-#define fill fill_array_double
-#define show show_array_double
-#define find_min find_min_double
-#define find_max find_max_double
-#define sort_array sort_array_double
-#define change_array change_array_double
+#define FILL fill_array_double
+#define SHOW show_array_double
+#define FIND_MIN find_min_double
+#define FIND_MAX find_max_double
+#define SORT_ARRAY sort_array_double
+#define CHANGE_ARRAY change_array_double
 #endif
 
 #ifdef CHAR
-#define fill fill_array_char
-#define show show_array_char
-#define find_min find_min_char
-#define find_max find_max_char
-#define sort_array sort_array_char
-#define change_array change_array_char
+#define FILL fill_array_char
+#define SHOW show_array_char
+#define FIND_MIN find_min_char
+#define FIND_MAX find_max_char
+#define SORT_ARRAY sort_array_char
+#define CHANGE_ARRAY change_array_char
 #endif
 
 void fill_array_int(int* arr, int size);
